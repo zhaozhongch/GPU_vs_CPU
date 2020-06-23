@@ -32,5 +32,6 @@ cd build
 ```
 
 ## Result Example
-They'll all get similar image output like ![demo_result](demo_result.png). Those circles just show the where the local high gradient point is in every 7 by 7 pixel block.  
+They'll all get similar image output like ![demo_result](demo_result.png)
+Those circles just show the where the local high gradient point is in every 7 by 7 pixel block.  
 On my `ThinkPad-X1-Extreme` laptop with CPU `Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz` and GPU `GTX 1050`, the single CPU computation time is about 100ms, multi CPU computation time is about 50ms, GPU computation time is about 400us.
